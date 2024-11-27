@@ -1,0 +1,51 @@
+.header {
+    background-color: #FEF7E2;
+    border-radius: 50px;
+    margin: 8%;
+}
+
+.shop,
+.link {
+    background-color: #FFDF7E;
+    border-radius: 10px;
+    padding: 20%;
+    color: #742305;
+}
+
+.logo {
+    float: left;
+   width:20px;
+   margin-right: 10px;
+}
+
+.shop {
+    text-transform: uppercase;
+    width: 50px;
+}
+
+.link {
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 480px) {
+ 
+    .visited {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        
+    }
+    .link{
+        width: 10%;
+        padding:5%;
+
+    }
+    .shop{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    
+}
